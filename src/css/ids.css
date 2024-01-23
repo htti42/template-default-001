@@ -1,0 +1,25 @@
+#area-topo,
+#area-secao-1,
+#area-secao-2, 
+#area-secao-3,
+#area-nav,
+#area-rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75vh;
+    gap: 50px;
+}
+
+#area-nav{
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+}
+
+#area-rodape{
+    flex-direction: row;
+    height: 80%;
+}

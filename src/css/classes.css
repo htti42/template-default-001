@@ -1,0 +1,79 @@
+.a-btn-nav,
+.secao,
+.cartoes-area,
+.cartao-area,
+.a-btn-area,
+.cartoes-secao,
+.cartao-secao,
+.a-btn-topo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.a-btn-nav{
+    background-color: black;
+    color: azure;
+    width: 20%;
+    height: 70%;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.secao{
+    margin: 1% 0 0 0;
+    width: 100%;
+}
+
+.cartoes-area{
+    height: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.cartao-area{
+    background-color: #252525;
+    color: azure;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 100%;
+}
+
+.a-btn-area{
+    background-color: black;
+    color: azure;
+    width: 20%;
+    height: 7%;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.cartoes-secao{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.cartao-secao{
+    background-color: #252525;
+    color: azure;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 500px;
+}
+
+.a-btn-topo{
+    width: 5%;
+}
+
+.mob-contatos-footer{
+    display: none;
+}
+
+.mob-nav-footer{
+    display: none;
+}
